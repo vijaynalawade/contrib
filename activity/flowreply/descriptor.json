@@ -1,0 +1,23 @@
+{
+	"title": "FlowReply",
+	"name": "flow-reply",
+	"author": "TIBCO Software Inc.",
+	"type": "flogo:activity",
+	"version": "1.0.0",
+	"inputs": [
+		{
+			"name": "reply",
+			"type": "object",
+			"display": {
+				"description": "An JSON data or schema for the input",
+				"type": "texteditor",
+				"syntax": "json",
+				"name": "Input Schema",
+				"mappable": true
+			}
+		}
+	],
+	"outputs": [
+
+	]
+}
