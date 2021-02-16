@@ -1,0 +1,33 @@
+{
+  "name": "flogo-flowcontext",
+  "type": "flogo:activity",
+  "version": "1.0.0",
+  "title": "FlowContext",
+  "description": "Returns the context of running flow",
+  "output":[
+    {
+      "name": "FlowName",
+      "type": "string",
+      "value": "",
+      "description": "Name of the flow in which activity is executing"
+    },
+    {
+      "name": "FlowId",
+      "type": "string",
+      "value": "",
+      "description": "Id of the flow"
+    },
+    {
+      "name": "AppName",
+      "type": "string",
+      "value": "",
+      "description": "Name of the app"
+    },
+    {
+      "name": "AppVersion",
+      "type": "string",
+      "value": "",
+      "description": "Version of the app"
+    }
+  ]
+}
